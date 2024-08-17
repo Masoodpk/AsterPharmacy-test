@@ -13,9 +13,9 @@ function Navbar() {
     
   }
   return (
-    <div className='Nav-containr fixed w-full '>
+    <div className='Nav-containr fixed z-50 w-full '>
 
-<div className='nav-logos w-full flex justify-end max-sm:pr-[30px] md:pr-[60px] text-[#e4ebf3] py-[10px] max-sm:text-[10px] laptop:px-[80px] monitor:px-[100px] '>
+<div className='nav-logos bg-white w-full flex justify-end max-sm:pr-[30px] md:pr-[60px] text-[#e4ebf3] py-[10px] max-sm:text-[10px] laptop:px-[80px] monitor:px-[100px] '>
     <ul className='flex gap-4  items-center  '>
     <li><FaFacebookF /></li>
     <li><FaInstagram /></li>
@@ -59,9 +59,9 @@ function Navbar() {
 
 {/* navbar mobile */} 
 
-<nav className='relative w-full h-[100vh] pointer-events-auto lg:hidden top-[-115px]'>
+<nav className='relative w-full h-[100vh] pointer-events-auto lg:hidden top-[-70px]'>
 
-<ul className={`absolute items-center right-0 bottom-0 bg-[#e4ebf3] pb-[75px] pl-[20px]  w-full rounded-t-[20px] transition-transform duration-300 ease-in-out ${
+<ul className={`absolute items-center right-0 bottom-0 bg-[#e4ebf3] pb-[75px] pl-[20px] z-[40]  w-full rounded-t-[20px] transition-transform duration-300 ease-in-out ${
   navMobile? 'translate-y-0 ':'translate-y-full '
 } shadow-md text-[18px] py-[25px] flex flex-col gap-4 cursor-pointer  `}>
 <li className='w-full flex justify-center'>
