@@ -13,7 +13,10 @@ export default {
       colors:{
         'customBlue':"#003377",
         'customGreen':"#09a37c",
-        'navcolor':"#e4ebf3"
+        'navcolor':"#e4ebf3",
+        'custom-dark-green': 'rgba(3, 41, 32, 1)',
+        'custom-green': 'rgba(27, 130, 89, 1)',
+        'custom-cyan': 'rgba(0, 212, 255, 1)',
 
       }
     },

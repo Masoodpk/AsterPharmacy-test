@@ -5,6 +5,7 @@ import himalaya from '../assets/Image 25.png'
 import cream from '../assets/Image 24.png'
 import huggies from '../assets/Image 28.png'
 import huggiesBox from '../assets/8875608a.png'
+import { FaArrowLeft ,FaArrowRight} from "react-icons/fa";
 
 import "react-multi-carousel/lib/styles.css";
 
@@ -22,7 +23,7 @@ const Carousal = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 3.5
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -38,9 +39,9 @@ const Carousal = () => {
     return (
       <button
         onClick={onClick}
-        className="absolute right-[55px] bottom-0 w-[50px] h-[50px] transform  bg-blue-500 text-white p-3 rounded-full z-10"
+        className="absolute right-[100px] bottom-1 w-[40px] h-[40px] transform ring-[#3333] ring-1 text-[15px]   text-center flex items-center font-bold text-[#3333] p-3 rounded-full z-10"
       >
-        ←
+      <FaArrowLeft />
       </button>
     );
   };
@@ -49,9 +50,9 @@ const Carousal = () => {
     return (
       <button
         onClick={onClick}
-        className="absolute right-0 bottom-0 transform w-[50px] h-[50px] bg-blue-500 text-white p-3 rounded-full z-10"
+        className="absolute right-10 bottom-1 transform w-[40px] h-[40px] ring-1 ring-[#3333] text-customBlue font-normal text-[15px] p-3 rounded-full z-10"
       >
-        →
+        <FaArrowRight/>
 
       </button>
     );
@@ -80,11 +81,11 @@ const Carousal = () => {
   }
   return (
     <div >
-      <Carousel responsive={responsive} showDots={true} customDot={<CustomDot />}
+      <Carousel responsive={responsive} showDots={true} customDot={<CustomDot /> }
         dotListClass='absolute bottom-0 left-0 w-full flex justify-center ' className=' h-[60vh] '
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}
-
+       
       >
 
         <OfferCard imageTop={himalaya} imageBottom={cream} />
