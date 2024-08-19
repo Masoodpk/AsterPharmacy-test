@@ -40,7 +40,7 @@ function Banner() {
             </div>
             <div className='right relative'>
                 <div className='img'>
-                    <img src={Banner2} alt="banne2" className=' w-full object-contain  bg-repeat-x ' />
+                    <img src={Banner2} alt="banne2" className=' w-full object-contain   ' />
                 </div>
                 <div className='content absolute top-1 text-white  py-[20px] px-[20px] '>
                     <h1 className='font-bold max-sm:text-[28px] text-[20px] '>BABY CARE PRODUCTS</h1>

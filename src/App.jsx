@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero/Hero'
+import LimitedDeals from './components/LimitedDeals'
+
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
+      <LimitedDeals/>
     </>
   )
 }

@@ -59,7 +59,7 @@ function Navbar() {
 
 {/* navbar mobile */} 
 
-<nav className='relative w-full h-[100vh] pointer-events-auto lg:hidden top-[-70px]'>
+<nav className='relative w-full h-[100vh] pointer-events-auto lg:hidden top-[-100px]'>
 
 <ul className={`absolute items-center right-0 bottom-0 bg-[#e4ebf3] pb-[75px] pl-[20px] z-[40]  w-full rounded-t-[20px] transition-transform duration-300 ease-in-out ${
   navMobile? 'translate-y-0 ':'translate-y-full '
