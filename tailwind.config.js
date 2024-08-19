@@ -17,6 +17,11 @@ export default {
         'custom-dark-green': 'rgba(3, 41, 32, 1)',
         'custom-green': 'rgba(27, 130, 89, 1)',
         'custom-cyan': 'rgba(0, 212, 255, 1)',
+        'customNivia':"#f2f4fa",
+        'customMama':"#f8fbf5",
+        'customHimalaya':"#f2f7f7",
+        'customHuggies':"#fdf3f4",
+        'customSavlon':"#fef6f3"
 
       }
     },
