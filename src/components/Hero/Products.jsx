@@ -31,7 +31,7 @@ function Products() {
         </ul>
       </div>
      
-      <div className="cards flex flex-col items-center ">
+      <div className="cards flex flex-col items-center sm:flex-row max-laptop:flex-wrap gap-4 justify-center ">
       
         <Card
           image={pampers}

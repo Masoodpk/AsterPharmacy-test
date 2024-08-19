@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import OfferCard from "./OfferCard";
 import { FaArrowRight,FaArrowLeft } from "react-icons/fa";
+import Carousal from "./Carousal";
 
 const LimitedDeals = () => {
   const [currentCard, setCurrentCard] = useState(0);
@@ -51,6 +52,8 @@ const LimitedDeals = () => {
         </p>
       </div>
       <div className="carousal">
+
+        <Carousal/>
         
       </div>
      
