@@ -22,7 +22,7 @@ const WhyAster = () => {
             Aster Pharmacy intend to <br /> make your lives easier.
           </p>
         </div>
-        <div className="services grid mt-[20px] gap-4 lg:grid-cols-2  lg:text-[10px] xl:text-[16px]">
+        <div className="services grid mt-[20px] gap-4 lg:grid-cols-2  lg:text-[10px] xl:text-[14px]">
           <div className="smallServiceCards flex bg-white  items-center py-[20px] lg:py-[20px] pl-[10px]  xl:py-[30px]  gap-5">
             <img src={phramacist} alt="pharmacist" className="w-[50px]" />
             <h1>Trained & Caring Pharmacist</h1>

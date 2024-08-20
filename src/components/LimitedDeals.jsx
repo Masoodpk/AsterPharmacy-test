@@ -46,12 +46,12 @@ const LimitedDeals = () => {
         <h1 className="font-bold text-customBlue text-[28px]">
           Limited Time Deals
         </h1>
-        <p className="text-[12px]">
+        <p className="text-[12px] ml-[20px] text-center">
           Get additional benefits from our wide range of healthcare products,
           only available for a limited period of time.
         </p>
       </div>
-      <div className="carousal">
+      <div className="carousal pl-[5%]">
 
         <Carousal/>
         

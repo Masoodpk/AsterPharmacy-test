@@ -24,7 +24,7 @@ const OfferCard = ({ imageTop, imageBottom }) => {
 
       </div>
 
-      <div className='h-[15px]  bg-gradient-to-t from-custom-dark-green via-custom-green to-custom-cyan  '>
+      <div className='h-[15px] bg-gradient-to-b from-[#155191]  to-[#029C78]   '>
 
       </div>
     </div>

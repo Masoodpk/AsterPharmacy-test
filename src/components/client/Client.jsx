@@ -5,6 +5,7 @@ import { responsive } from "../constents";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Client = () => {
+  const marginSmall = true
 
     const CustomButtonGroup = ({ next, previous }) => {
         return (
@@ -45,16 +46,16 @@ const Client = () => {
       <div className="client-cards py-[3%] ">
         <Carousel responsive={responsive} renderButtonGroupOutside={true} arrows={false} customButtonGroup={<CustomButtonGroup/>}>
         <ClientCard
-          text="I am extremely grateful for Aster Pharmacy for
+          text="I am extremely grateful for Aster Pharmacy for 
         delivering the medicines right on time."
         />
-        <ClientCard text={"Thank you, Aster Pharmacy, for quick delivery"} />
+        <ClientCard text={"Thank you, Aster Pharmacy, for quick delivery"} marginSmall />
         <ClientCard
           text="You can definitely trust on Aster Pharmacy, they can deliv
                  medicines lightning fast."
         />
-        <ClientCard text={"Thank you, Aster Pharmacy, for quick delivery"} />
-        <ClientCard text={"Thank you, Aster Pharmacy, for quick delivery"} />
+        <ClientCard text={"Thank you, Aster Pharmacy, for quick delivery"}  marginSmall  />
+        <ClientCard text={"Thank you, Aster Pharmacy, for quick delivery"} marginSmall />
         </Carousel>
 
         <div className="radiobuttonDemo flex justify-center ">

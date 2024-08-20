@@ -1,15 +1,16 @@
-import React from 'react'
-import nivea from '../assets/NIVIEA.png'
+import React, { useEffect, useState } from 'react'
+
 
 const FeaturedCard = ({color,image,text}) => {
+ 
   return (
-    <div className={`featured-card-container h-[80px] m-[2%] bg-${color}  items-center gap-8 rounded-[5px]  py-[8px]  justify-center flex w-[250px]`}>
+    <div className={`featured-card-container h-[80px] m-[1%] bg-navcolor items-center gap-8 rounded-[5px]  py-[8px]  justify-center flex w-[250px]`}>
 
         <div className="img">
         <img src={image} alt="nvea" className='w-[60px]' />
         </div>
         <div className="heading">
-         <h1 >{text}</h1>
+         <h1>{text}</h1>
         </div>
         
         

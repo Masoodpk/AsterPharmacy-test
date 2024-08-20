@@ -21,7 +21,7 @@ function Products() {
         </p>
       </div>
       <div className="section w-full py-[20px] pb-[50px]">
-        <ul className=" max-sm:text-[9.1px] sm:text-[18px]   flex justify-center gap-2  text-[#3333336c]  font-semibold ">
+        <ul className=" max-md:text-[9.1px] lg:text-[18px]   flex justify-center gap-2  text-[#3333336c]  font-semibold ">
           <li>Aster Products</li>
           <li>Medicine</li>
           <li className="text-customGreen underline underline-offset-8">Baby Care</li>

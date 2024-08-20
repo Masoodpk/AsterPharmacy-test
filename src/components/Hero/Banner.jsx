@@ -34,7 +34,7 @@ function Banner() {
 
                     <p className='font-semibold'>Locate Nearest</p>
                     <h1 className='text-[#09a37c] text-[28px] font-bold'>Pharmacy</h1>
-                    <p className='font-semibold'>Get genuine medicines round the clock</p>
+                    <p className='font-semibold text-[12px]'>Get genuine medicines round the clock</p>
                     <button className='bg-transparent border border-black  rounded-full text-black mt-[20px] max-sm:w-[100px] text-[10px] py-[8px] px-[12px] max-w-[100px] '>Search Now</button>
                 </div>
             </div>
