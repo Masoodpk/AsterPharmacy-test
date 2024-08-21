@@ -59,9 +59,9 @@ function Navbar() {
 
 {/* navbar mobile */} 
 
-<nav className='relative w-full h-[100vh] pointer-events-auto lg:hidden top-[-100px]'>
+<nav className={`relative w-full  pointer-events-auto lg:hidden top-[1000px] overflow-hidden ${navMobile && "overflow-visible"} `}>
 
-<ul className={`absolute items-center right-0 bottom-0 bg-[#e4ebf3] pb-[75px] pl-[20px] z-[40]  w-full rounded-t-[20px] transition-transform duration-300 ease-in-out ${
+<ul className={`absolute items-center right-0 bottom-0 bg-[#e4ebf3] pb-[75px] pl-[20px] z-[20]  w-full rounded-t-[20px] transition-transform duration-300 ease-in-out ${
   navMobile? 'translate-y-0 ':'translate-y-full '
 } shadow-md text-[18px] py-[25px] flex flex-col gap-4 cursor-pointer  `}>
 <li className='w-full flex justify-center'>
